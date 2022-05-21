@@ -1,64 +1,44 @@
-body{
-    background-color: #000000;
-    font-family: 'Heebo', sans-serif;
-}
-.contenedor{
-    background-color: #ffffff;
-    width: 650px;
-    height: 70%;
-    margin: auto;
-    margin-top: 5%;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: black;
+}
+.post{
+    background: white;
+    margin: auto;
+    width: 300px;
+}
+.div-img{
+    float: top;
+}
+.titulo{
+    margin: 1px;
+}
+.div-arriba {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.fa-html5 {
+font-size: 30px;
+}
+.fa-ellipsis-v{
+    font-size: 25px;
+    }
+.div-der{
+    width: 70%;
+}
 .tres-puntos{
     float: right;
 }
-
-/* hola */
-.perfil{
-    float: left;
-    margin-top: 20px;
-    width: 70px;
-    text-align: center;
-    font-size: 55px;
-}
-.titulo{
-    float: left;
-    font-size: 20px;
-    overflow: hidden;
-    margin-top: 25px;
-}
-.subtitulo{
-    float: left;
-    position: relative;
-    top: 35px;
-    right: 65px;
-}
-.mas{
+.fa-bookmark {
     float: right;
-    margin-top: 30px;
-    margin-right: 20px;
 }
-.mas a{
-    color: #000000;
-    font-size: 30px;
+.div-abajo {
+    padding: 5px;
 }
-.acciones{
-    margin:20px;
-}
-.acciones a{
-    color: #000000;
-    font-size: 30px;
-}
-.etiquetar{
-    float: right;
-    margin-right: 80%;
-}
-.post a{
-    font-weight: bold;
-    text-decoration: none;
-    color: #000000;
-}
-.post{
-    margin: 20px;
+.div-centro {
+    font-size: 12px;
 }
